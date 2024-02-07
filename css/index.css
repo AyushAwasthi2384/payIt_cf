@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (max-device-width: 480px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    html{
+        font-size: 10px;
+    }
+    body{
+        font-family: "Montserrat";
+    }
+    .navbar{
+        margin: 0;
+        top: 0;
+        z-index: 10;
+        height: 8rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: rgb(9, 0, 58);
+        position:fixed;
+    }
+    .navTrigger{
+        height: 3rem;
+        margin: 0.5rem 0.5rem;
+        margin-left: 2rem;
+    }
+    .acc-dp{
+        height: 5rem;
+        position: absolute;
+        right: 1rem;
+        border-radius: 50%;
+    }
+    .mainOne{
+        margin-top: -29rem;
+        padding-top: 0rem;
+        padding-bottom: 10rem;
+        font-size: 2.5rem;
+        font-weight: 600;
+        text-align: center;
+        height: fit-content;
+        width: 100%;
+        background-image: url(../media/mainOneBg.jpg);
+        background-size: 60rem;
+        background-color: transparent;
+        position: fixed;
+        z-index: -1;
+    }
+    .navTrigger{
+        transition-duration: 0.3ms;
+    }
+    .navMenu{
+        width: 30rem;
+        top: 8rem;
+        left: -50rem;
+        height: 91.5%;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(218, 215, 215, 0.836);
+        transition-duration: 0.3s;
+    }
+    .navLink{
+        margin: 0;
+        height: 7rem;
+        font-size: 2.2rem;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 2rem 2rem;
+        color: rgb(22, 22, 22);
+    }
+    .mainTwo{
+        height: 100vh;
+        background-color: white;
+        margin-top: 40vh;
+        padding-top: 1rem;
+        padding-bottom: 12rem;
+        border-top-left-radius: 3rem;
+        border-top-right-radius: 3rem;
+        /* background-color: blue; */
+        box-shadow: 0px 2px 30px 10px rgba(0, 0, 0, 0.5);
+    }
+    .newPay{
+        margin: 2rem 2rem;
+        margin-top: 0;
+        height: 16%;
+        border-radius: 2rem;
+        border: 1px solid black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .payUtility{
+        margin: 2rem 2rem;
+        margin-top: 0;
+        height: 50%;
+        border-radius: 2rem;
+        border: 1px solid black;
+    }
+    .bookTickets{
+        margin: 2rem 2rem;
+        margin-top: 0;
+        height: 18%;
+        border-radius: 2rem;
+        border: 1px solid black;
+        margin-bottom: 6rem;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .mainTwo-first{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 12%;
+        font-size: 1.2rem;
+        font-weight: 1000;
+        text-align: center;
+    }
+    .mainTwo-first img{
+        width: 100%;
+    }
+    .payUtility .container{
+        height: 25%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .mainTwoCap{
+        font-size: 2rem;
+        font-weight: 600;
+        margin-left: 2.5rem;
+        margin-bottom: 0.2rem;
+    }
+}
