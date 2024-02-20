@@ -10,6 +10,7 @@ navTrigger.addEventListener("click", () => {
         navTrigger.style.height="2.5rem"
         nmC = 1;
         console.log(nmC)
+        
     }
     else{
         navMenu.style.left = "-50rem";
